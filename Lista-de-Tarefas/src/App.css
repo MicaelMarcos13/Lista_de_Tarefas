@@ -1,0 +1,86 @@
+
+body{
+  font-family: Arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url("https://img.freepik.com/fotos-premium/luzes-brilhantes-em-fundo-hexagonal_1082068-74037.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin-top: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: #0056b3;
+}
+
+.tarefa-list{
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+  
+}
+.tarefa{
+  background-color: #fff;
+  box-shadow:0 0 10px rgba(0,0green, blue, alpha) ;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remove{
+  background-color: #dc3545;
+}
+.complete{
+  background-color: #28a745;
+  margin-right: 5px;
+}
+
+.tarefa-form{
+  margin-bottom: 20px;
+}
+
+input, select{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
